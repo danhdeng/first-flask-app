@@ -1,20 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bb550f57-a3af-48f7-a63d-d5a3d174261c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/flaskmarket.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/market/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/market/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/market.html" beforeDir="false" afterPath="$PROJECT_DIR$/market/templates/market.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,17 +55,67 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\code\python\flaskmarket\market" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.routes">
     <configuration name="base.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/first-flask-app/templates/base.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="flaskmarket" type="PythonConfigurationType" factoryName="Python">
+      <module name="flaskmarket" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\code\python\flaskmarket\run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="routes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="flaskmarket" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/market" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/market/routes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="flaskmarket" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -48,7 +128,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="C:\code\python\flaskmarket\run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -59,7 +139,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.routes" />
+        <item itemvalue="Python.run" />
         <item itemvalue="JavaScript Debug.base.html" />
       </list>
     </recent_temporary>
@@ -76,43 +157,93 @@
       <updated>1627341332258</updated>
       <workItem from="1627341333770" duration="2201000" />
       <workItem from="1627351194023" duration="3636000" />
+      <workItem from="1627394745914" duration="561000" />
+      <workItem from="1627395891524" duration="68000" />
+      <workItem from="1627396020938" duration="15000" />
+      <workItem from="1627396478686" duration="42000" />
+      <workItem from="1627396558644" duration="6829000" />
+      <workItem from="1627409529544" duration="3941000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="828" y="330" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1627351826712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="330" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627351826712" />
-    <state width="1877" height="534" key="GridCell.Tab.0.bottom" timestamp="1627352930391">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1627397350043">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1366.728@0.0.1366.728" timestamp="1627397350043" />
+    <state width="1286" height="160" key="GridCell.Tab.0.bottom" timestamp="1627395311563">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="160" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627395311563" />
     <state width="1877" height="534" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627352930391" />
-    <state width="1877" height="534" key="GridCell.Tab.0.center" timestamp="1627352930391">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1286" height="160" key="GridCell.Tab.0.center" timestamp="1627395311563">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1286" height="160" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627395311563" />
     <state width="1877" height="534" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627352930391" />
-    <state width="1877" height="534" key="GridCell.Tab.0.left" timestamp="1627352930391">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1286" height="160" key="GridCell.Tab.0.left" timestamp="1627395311563">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1286" height="160" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627395311563" />
     <state width="1877" height="534" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627352930391" />
-    <state width="1877" height="534" key="GridCell.Tab.0.right" timestamp="1627352930391">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1286" height="160" key="GridCell.Tab.0.right" timestamp="1627395311563">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1286" height="160" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627395311563" />
     <state width="1877" height="534" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627352930391" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1627353830622">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1627397302541">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1627397302541" />
+    <state x="328" y="18" key="SettingsEditor" timestamp="1627402740341">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="328" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1627402740341" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1627353830622" />
     <state x="681" y="261" width="540" height="524" key="StructurePopup" timestamp="1627341463937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="261" width="540" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1627341463937" />
+    <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1627412629610">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1627412629610" />
+    <state x="346" y="49" key="search.everywhere.popup" timestamp="1627396796040">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1627396796040" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/market/routes.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/flaskmarket$flaskmarket.coverage" NAME="flaskmarket Coverage Results" MODIFIED="1627396940971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/first_flask_app$main.coverage" NAME="main Coverage Results" MODIFIED="1627352927606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
