@@ -5,21 +5,27 @@
 {% endblock %}
 
 {% block content %}
+    <body class="text-center">
     <div class="container">
     <form method="POST" class="form-register" style="color: white">
         {{ form.hidden_tag() }}
         <h1>Please create your account</h1>
         <br />
-      .  {{ form.username.label() }}
+        {{ form.username.label() }}
         {{ form.username(class="form-control", placeholder="User Name") }}
-        {{ form.email.label() }}
-        {{ form.email(class="form-control", placeholder = "email")}}
-        {{ form.password.label() }}
-        {{ form.password(class="form-control", placeholder="passoword")}}
-        {{ form.confirmpassword.label() }}
-        {{ form.confirmpassword(class="form-control", placeholder="confirm password")}}
+        {{ form.email_address.label() }}
+        {{ form.email_address(class="form-control", placeholder = "email_address")}}
+            {{ form.password1.label() }}
+            {{ form.password1(class="form-control", placeholder="Password") }}
+            {{ form.password2.label() }}
+            {{ form.password2(class="form-control", placeholder="Confirm Password") }}
         <br />
+          <div class="checkbox mb-3">
+	               <h6>Already have an account?</h6>
+	               <a class="btn btn-sm btn-secondary" href="{{ url_for('login_page') }}">Sign In</a>
+	            </div>
         {{ form.submit(class="btn btn-lg btn-block btn-primary")}}
     </form>
     </div>
+    </body>
 {% endblock %}

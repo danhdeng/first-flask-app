@@ -20,18 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb550f57-a3af-48f7-a63d-d5a3d174261c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/market/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/market/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/market/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/market/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/market/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/market/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market/templates/includes/items_modals.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/market/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/market/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/market.html" beforeDir="false" afterPath="$PROJECT_DIR$/market/templates/market.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/market.db" beforeDir="false" afterPath="$PROJECT_DIR$/market/market.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/market/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/market/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/market/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/templates/market.html" beforeDir="false" afterPath="$PROJECT_DIR$/market/templates/market.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/market/templates/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +64,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\code\python\flaskmarket\market\templates\includes" />
       <recent name="C:\code\python\flaskmarket\market" />
     </key>
   </component>
@@ -163,6 +164,7 @@
       <workItem from="1627396478686" duration="42000" />
       <workItem from="1627396558644" duration="6829000" />
       <workItem from="1627409529544" duration="3941000" />
+      <workItem from="1627483638737" duration="16210000" />
     </task>
     <servers />
   </component>
@@ -214,19 +216,23 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1627397302541" />
-    <state x="328" y="18" key="SettingsEditor" timestamp="1627402740341">
+    <state x="328" y="18" key="SettingsEditor" timestamp="1627493173272">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="328" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1627402740341" />
+    <state x="328" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1627493173272" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1627353830622" />
     <state x="681" y="261" width="540" height="524" key="StructurePopup" timestamp="1627341463937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="261" width="540" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1627341463937" />
-    <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1627412629610">
+    <state x="289" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1627500941496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1627412629610" />
+    <state x="289" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1627500941496" />
+    <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1627501195928">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1627501195928" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1627396796040">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
